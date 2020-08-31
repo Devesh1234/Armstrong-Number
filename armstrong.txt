@@ -1,0 +1,73 @@
+                Java program to check whether a number is Armstrong or not.
+
+
+1. What is an armstrong number?
+
+	A number which is equal to sum of cube of its individual digits.
+	
+
+	Eg : 153 , 370 ,371 are armstrong numbers.
+	    
+
+
+2. How to check a number is armstrong or not ?
+
+	
+		2.1    Separate all the digits of a given number 
+
+		2.2    Cube all the individual digits
+
+		2.3    Sum all the cubes of the individual digits
+
+		2.4    If the result is same as the given number then the number is an 
+				armstrong number otherwise not.  
+
+
+
+		Eg : 153
+ 
+			a.   1 , 5  and 3    (Separate all the digits) 
+
+			b .  1³ ,  5³ , 3³   (Cube all the individual digits)
+
+			c.  1³ + 5³ + 3³     (Sum all the cubes of the individual digits)
+			    = 1 + 125 + 27 
+			    = 153
+		
+			d.  The result is equal to the given number . 
+				Therefore , 153 is an armstrong number.
+
+
+
+
+
+			 265 =  	2³ + 6³ + 5³ 
+	              	     = 8 + 216 +125 
+		 	     = 349
+
+				So, 265 is not an armstrong number.
+	     
+
+			371 = 3³ + 7³ + 1³ 
+		 	    = 27 + 343 + 1 
+		 	    = 371
+
+				So, 371  is an armstrong number.
+		
+	     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
